@@ -59,10 +59,97 @@ nav ul li {
     margin-bottom: 30px;
  }
 
+
+
 main h1 {
     margin: 0px 0px 0px 50px;
 }
 
 main p {
-    margin: 10px 0px 10px 50px;
+    margin: 25px 0px 10px 50px;
+}
+
+.jelasinorang {
+    width: 60%;
+    z-index: -1;
+    position:absolute;
+    display: flex;
+    margin-top: -250px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+.learnmore {
+    border:  solid;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(69, 170, 207);
+    text-decoration: none;
+    margin-left: 49px;
+
+}
+
+main a:hover {
+    color: rgb(69, 170, 207);
+    background-color: white;
+}
+
+.promotion {
+    display: flex;
+    border-bottom: 2px solid green;
+}
+
+.biznetbuild1 {
+    display: flex;
+    align-items: auto;
+    border-bottom: 2px solid green;
+}
+
+.learnmore1 {
+    border:  solid;
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(69, 170, 207);
+    text-decoration: none;
+    margin-left: 49px;
+}
+
+.perusahaanbanyak {
+    border-bottom: 2px solid green;
+    margin-bottom: 20px;
+}
+
+.statisfied-customer {
+    width: 90%;
+}
+
+.list2 {
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.learnmore2 {
+    border:  solid;
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(24, 160, 62);
+    text-decoration: none;
+    margin-left: 49px;   
+}
+
+.learnmore2:hover {
+    color: rgb(24, 160, 62);
+    background-color: white;
+}
+
+.list2 {
+    margin-left: 65px;
+}
+
+.nomortlp {
+    background-color: aqua;
+    border-bottom: 2px solid green;
 }
