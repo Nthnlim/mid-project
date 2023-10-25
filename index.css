@@ -153,3 +153,37 @@ main a:hover {
     background-color: aqua;
     border-bottom: 2px solid green;
 }
+
+footer {
+    background-color: rgb(62, 55, 55);
+    display: flexbox;
+    padding: 50px 50px 50px 50px;
+}
+
+footer a {
+    color: darkgrey;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.imgfooter {
+    float: right;
+}
+.quick {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    display: flexbox;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+}
+
+.footer-contact {
+    display: flex;
+}
