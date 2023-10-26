@@ -58,11 +58,13 @@ nav ul li {
 
  nav {
     border-bottom: 2px solid darkgreen;
-    margin-bottom: 30px;
  }
 
 
 /* Main */
+main {
+    background-color: bisque;
+}
 main h1 {
     margin-left: 20px;
 }
