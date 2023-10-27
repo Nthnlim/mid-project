@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+    border-bottom: 3px solid darkgreen;
+}
+
+.logoatas {
+    margin: 20px 100px 10px 80px;
+    width: 10%;
+}
+
+header a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin: 20px 150px 10px 0px;
+    
+}
+
+header a:hover {
+    color: darkgreen;
+}
+
+/* navigation */
+nav ul {
+    list-style-type: none;
+    background-color: #dedede;
+    font-weight: bolder;
+    text-align: center;
+}
+
+nav ul li {
+    justify-content: center;
+    padding: 15px 10px 25px 20px;
+    border: 1px solid black;
+    
+}
+ nav ul li a {
+    text-decoration: none;
+    color: black;
+    float: left; 
+}
+
+ nav ul li a:hover {
+    color: white;
+ }
+
+ nav ul li:hover {
+    background-color: black;
+ }
+
+ nav {
+    border-bottom: 2px solid darkgreen;
+ }
+
+
+/* Main */
+main {
+    background-color: bisque;
+}
+main h1 {
+    margin-left: 20px;
+}
+
+main h3 {
+    margin-left: 20px;
+}
+.maincontact {
+    padding: 5px 5px 5px 5px;
+    margin-left: 20px;
+}
+
+.submit {
+    margin-right: 5px;
+    padding: 2px 2px 2px 2px;
+}
+
+.reset {
+    padding: 2px 2px 2px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* footer */
+.nomortlp {
+    background-color: aqua;
+    border-bottom: 2px solid green;
+}
+
+footer {
+    background-color: rgb(62, 55, 55);
+    display: flexbox;
+    padding: 50px 50px 50px 50px;
+}
+
+footer a {
+    color: darkgrey;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.imgfooter {
+    float: right;
+}
+.quick {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    display: flexbox;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+}
+
+.footer-contact {
+    display: flex;
+}
